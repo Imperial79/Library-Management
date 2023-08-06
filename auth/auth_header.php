@@ -22,8 +22,8 @@ $currentpath = $scriptFilename[count($scriptFilename) - 1];
             rel="stylesheet">
 
         <!-- CSS Import -->
-        <link rel="stylesheet" type="text/css" href="style/index.css">
+        <link rel="stylesheet" type="text/css" href="../style/index.css">
 
 
-        <title><?php echo $currentpath == "index.php" ? "Login" : "Register"; ?> | HITK Library</title>
+        <title><?php echo $currentpath == "login.php" ? "Login" : "Register"; ?> | HITK Library</title>
     </head>
