@@ -1,0 +1,22 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row; /* or column, depending on the desired layout */
+  }
+  
+  .flex-item {
+    flex: 1; /* This will make all items take up equal space */
+    /* You can also use flex-grow: 1; instead */
+    /* Add additional styles as needed */
+  }
